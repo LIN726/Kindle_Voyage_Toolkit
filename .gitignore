@@ -1,0 +1,13 @@
+# 忽略超过 100MB 的官方固件二进制包（由脚本自动按需从亚马逊官方 S3 CDN 下载）
+*.bin
+update_kindle_voyage_5.13.6.bin
+
+# 恢复第一步中的收尾补丁除外（该补丁仅 150KB，允许提交）
+!Update_hotfix_watchthis_custom.bin
+!Update_jailbreak_hotfix_1.16.N_install.bin
+!Update_KUALBooklet_v2.7.37_install.bin
+
+# 系统与编辑器文件
+.DS_Store
+*.swp
+*~
